@@ -1,0 +1,35 @@
+:root {
+    /* Color Palette */
+    --player1-piece: #de642b;
+    --player1-base: #683118;
+    --player2-piece: #aab12b;
+    --player2-base: #484c19;
+    --background: #1f1d1f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto;
+    /* We'll set the width and height in JavaScript to ensure it fits properly */
+} 
